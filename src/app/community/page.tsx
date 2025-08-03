@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { ArrowLeft, Users, BookOpen, Code, Lightbulb, Github, Calendar, MessageSquare, Users2, Globe } from "lucide-react";
-import Link from "next/link";
+import { Github, Calendar, Code, MessageSquare, Users2, Globe } from "lucide-react";
 import Navbar from "@/components/Navbar";
 
 export default function Community() {
@@ -30,7 +29,7 @@ export default function Community() {
               A National Collaborative of Chip Learners, Builders, and Innovators
             </h1>
             <p className="text-xl text-[#6a6f73] max-w-4xl mx-auto leading-relaxed">
-              India's Open Silicon Movement Starts Here
+              India&apos;s Open Silicon Movement Starts Here
             </p>
           </div>
 
@@ -161,8 +160,8 @@ export default function Community() {
                 Together, we are building a fabric of innovation, skilling, and open hardware.
               </h2>
               <p className="text-lg text-[#6a6f73] mb-8 leading-relaxed">
-                Join our fast-growing, mission-driven community and be part of India's open silicon movement. 
-                Whether you're a student, faculty member, researcher, or industry professional, there's a place for you in our ecosystem.
+                Join our fast-growing, mission-driven community and be part of India&apos;s open silicon movement. 
+                Whether you&apos;re a student, faculty member, researcher, or industry professional, there&apos;s a place for you in our ecosystem.
               </p>
               <div className="flex gap-4">
                 <button className="bg-[#8B2DB8] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#7A1AA7] transition-colors">
@@ -187,8 +186,8 @@ export default function Community() {
                   Building the Future
                 </h3>
                 <p className="text-lg text-[#6a6f73] leading-relaxed">
-                  We're creating an ecosystem where innovation meets collaboration, 
-                  and where every member contributes to India's semiconductor future.
+                  We&apos;re creating an ecosystem where innovation meets collaboration, 
+                  and where every member contributes to India&apos;s semiconductor future.
                 </p>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Users, Target, Rocket, BookOpen, GraduationCap, RefreshCw, Languages, Search, MessageSquare, Smartphone, Settings, TrendingUp, UserCheck } from "lucide-react";
+import { MessageSquare, Smartphone, Settings, TrendingUp, UserCheck } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LogoBanner from "@/components/LogoBanner";

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import Navbar from '@/components/Navbar';
 
@@ -216,7 +215,7 @@ export default function Login() {
               />
             </div>
             <h3 className="text-2xl font-bold text-[#2A2B3F] mb-4">
-              Join India's Open Silicon Movement
+              Join India&apos;s Open Silicon Movement
             </h3>
             <p className="text-[#6a6f73] leading-relaxed">
               Connect with engineering students, faculty, researchers, and industry professionals 
