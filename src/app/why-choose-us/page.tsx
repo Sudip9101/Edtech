@@ -109,10 +109,10 @@ export default function WhyChooseUs() {
             {/* Left Content */}
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-[#2A2B3F] mb-6">
-                We're not just another online learning platform
+                We&apos;re not just another online learning platform
               </h2>
               <p className="text-lg text-[#6a6f73] mb-8 leading-relaxed">
-                We're building a national capability in semiconductor education and design IP creation. Here's what sets us apart:
+                We&apos;re building a national capability in semiconductor education and design IP creation. Here&apos;s what sets us apart:
               </p>
 
               {/* Features List */}
@@ -186,7 +186,7 @@ export default function WhyChooseUs() {
                   Our Vision
                 </h3>
                 <p className="text-lg text-[#6a6f73] leading-relaxed">
-                  Our vision is to build India's Silicon Skilling Stack, layer by layer.
+                  Our vision is to build India&apos;s Silicon Skilling Stack, layer by layer.
                 </p>
                 <div className="mt-8">
                   <button className="bg-[#a435f0] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#8b2db8] transition-colors">
