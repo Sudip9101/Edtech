@@ -119,7 +119,7 @@ export default function Home() {
                   Advancing Semiconductor Education & Innovation
                 </p>
                 <p className="text-lg text-[#6a6f73] mb-6 max-w-2xl leading-relaxed">
-                  We are dedicated to strengthening India's capabilities in chip design, SoC development, and open-source EDA tool usage, contributing to self-reliance in the semiconductor domain.
+                  We are dedicated to strengthening India&apos;s capabilities in chip design, SoC development, and open-source EDA tool usage, contributing to self-reliance in the semiconductor domain.
                 </p>
                 <p className="text-lg text-[#6a6f73] mb-6 max-w-2xl leading-relaxed">
                   In an era where semiconductors are key to strategic independence and digital sovereignty, our mission is to make chip design skills accessible and affordable to students, researchers, startups, and MSMEs.
