@@ -18,7 +18,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">2. Use License</h2>
               <p className="leading-relaxed mb-3">
-                Permission is granted to temporarily download one copy of the materials (information or software) on NOSEDC's website for personal, non-commercial transitory viewing only.
+                Permission is granted to temporarily download one copy of the materials (information or software) on NOSEDC&apos;s website for personal, non-commercial transitory viewing only.
               </p>
               <p className="leading-relaxed">
                 This is the grant of a license, not a transfer of title, and under this license you may not:
@@ -34,28 +34,28 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">3. Disclaimer</h2>
               <p className="leading-relaxed">
-                The materials on NOSEDC's website are provided on an 'as is' basis. NOSEDC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                The materials on NOSEDC&apos;s website are provided on an &apos;as is&apos; basis. NOSEDC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">4. Limitations</h2>
               <p className="leading-relaxed">
-                In no event shall NOSEDC or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on NOSEDC's website, even if NOSEDC or a NOSEDC authorized representative has been notified orally or in writing of the possibility of such damage.
+                In no event shall NOSEDC or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on NOSEDC&apos;s website, even if NOSEDC or a NOSEDC authorized representative has been notified orally or in writing of the possibility of such damage.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">5. Accuracy of Materials</h2>
               <p className="leading-relaxed">
-                The materials appearing on NOSEDC's website could include technical, typographical, or photographic errors. NOSEDC does not warrant that any of the materials on its website are accurate, complete or current. NOSEDC may make changes to the materials contained on its website at any time without notice.
+                The materials appearing on NOSEDC&apos;s website could include technical, typographical, or photographic errors. NOSEDC does not warrant that any of the materials on its website are accurate, complete or current. NOSEDC may make changes to the materials contained on its website at any time without notice.
               </p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">6. Links</h2>
               <p className="leading-relaxed">
-                NOSEDC has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by NOSEDC of the site. Use of any such linked website is at the user's own risk.
+                NOSEDC has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by NOSEDC of the site. Use of any such linked website is at the user&apos;s own risk.
               </p>
             </section>
 

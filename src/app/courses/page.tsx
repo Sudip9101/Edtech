@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from "react";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -42,16 +43,13 @@ export default function Courses() {
             {/* Course 1: Chipcraft Bootcamp */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-48 bg-gradient-to-br from-blue-50 to-blue-100">
-                <img
+                <Image
                   src="/tile1.jpg"
                   alt="Chipcraft Bootcamp"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 1 image failed:', e);
-                  }}
-                                />
+                  fill
+                  className="object-cover"
+                  priority
+                />
                  <div className="absolute top-4 right-4 bg-[#a435f0] text-white px-3 py-1 rounded-full text-sm font-semibold">
                    30 Hours
                 </div>
@@ -72,16 +70,13 @@ export default function Courses() {
             {/* Course 2: Chipcraft: RTL, IP Integration and SoC Signoff */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-48 bg-gradient-to-br from-green-50 to-green-100">
-                <img
+                <Image
                   src="/tile2.jpg"
                   alt="Chipcraft RTL Course"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 2 image failed:', e);
-                  }}
-                                />
+                  fill
+                  className="object-cover"
+                  priority
+                />
                  <div className="absolute top-4 right-4 bg-[#a435f0] text-white px-3 py-1 rounded-full text-sm font-semibold">
                    90 Hours
                 </div>
@@ -121,15 +116,12 @@ export default function Courses() {
             {/* Course 3: RTL Design & Verification */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-purple-50 to-purple-100">
-                <img
+                <Image
                   src="/RTL.jpg"
                   alt="RTL Design & Verification"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 3 image failed:', e);
-                  }}
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
               <div className="p-4 text-center">
@@ -148,15 +140,12 @@ export default function Courses() {
             {/* Course 4: Design for Testing */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-teal-50 to-teal-100">
-                <img
+                <Image
                   src="/DFT.webp"
                   alt="Design for Testing"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 4 image failed:', e);
-                  }}
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
               <div className="p-4 text-center">
@@ -175,15 +164,12 @@ export default function Courses() {
             {/* Course 5: Physical Design */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-orange-50 to-orange-100">
-                <img
+                <Image
                   src="/new course.jpeg"
                   alt="Physical Design"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 5 image failed:', e);
-                  }}
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
               <div className="p-4 text-center">
@@ -202,15 +188,12 @@ export default function Courses() {
             {/* Course 6: Analog Machine */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-indigo-50 to-indigo-100">
-                <img
+                <Image
                   src="/SOC.jpg"
                   alt="Analog Machine"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={(e) => {
-                    console.error('Course 6 image failed:', e);
-                  }}
+                  fill
+                  className="object-cover"
+                  priority
                 />
               </div>
               <div className="p-4 text-center">

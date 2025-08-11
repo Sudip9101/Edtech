@@ -329,22 +329,22 @@ export default function Home() {
 
           <div className="flex justify-center items-center space-x-24">
             <div className="flex-shrink-0 w-80 h-80 flex items-center justify-center">
-              <Image
-                src="/SCL.png"
+                <Image
+                  src="/SCL.png"
                 alt="SCL - Semi-Conductor Laboratory"
                 width={280}
                 height={280}
-                className="object-contain max-w-full max-h-full"
-              />
-            </div>
+                  className="object-contain max-w-full max-h-full"
+                />
+              </div>
             <div className="flex-shrink-0 w-80 h-80 flex items-center justify-center">
-              <Image
-                src="/tata.webp"
+                <Image
+                  src="/tata.webp"
                 alt="Tata Electronics"
                 width={280}
                 height={280}
-                className="object-contain max-w-full max-h-full"
-              />
+                  className="object-contain max-w-full max-h-full"
+                />
             </div>
           </div>
         </div>
