@@ -13,10 +13,10 @@ export default function Navbar() {
       {/* Top Navbar - Logos Only */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-32">
-          {/* Left Side - EdTechPro Logo */}
+          {/* Left Side - NOSEDC Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-3xl font-bold text-[#a435f0] hover:text-[#8b2db8] transition-colors">
-              EdTechPro
+              NOSEDC
             </Link>
           </div>
           
@@ -59,17 +59,20 @@ export default function Navbar() {
             {/* Desktop Navigation */}
             <div className="hidden md:block">
               <div className="flex items-center space-x-8">
-                <Link href="/ip-library" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
-                  IP Library
+                <Link href="/courses" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
+                  Courses
                 </Link>
                 <Link href="/open-tools" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
                   Open Tools
+                </Link>
+                <Link href="/ip-library" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
+                  IP Library
                 </Link>
                 <Link href="/community" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
                   Community
                 </Link>
                 <Link href="/events" className="text-[#1c1d1f] hover:text-[#a435f0] px-3 py-2 rounded text-sm font-medium transition-colors">
-                  Events
+                  News & Events
                 </Link>
               </div>
             </div>
@@ -102,14 +105,20 @@ export default function Navbar() {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t border-gray-200">
-            <Link href="/ip-library" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
-              IP Library
+            <Link href="/courses" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
+              Courses
             </Link>
             <Link href="/open-tools" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
               Open Tools
             </Link>
+            <Link href="/ip-library" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
+              IP Library
+            </Link>
             <Link href="/community" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
               Community
+            </Link>
+            <Link href="/events" className="text-[#1c1d1f] hover:text-[#a435f0] block px-2 py-1 rounded text-sm font-medium transition-colors">
+              News & Events
             </Link>
             
             {/* Mobile Auth Buttons */}

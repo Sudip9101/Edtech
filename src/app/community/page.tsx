@@ -52,13 +52,13 @@ export default function Community() {
               <div className="w-full h-48 mb-8 relative overflow-hidden rounded-lg">
                 <Image
                   src="/proffesor.jpeg"
-                  alt="Faculty Members"
+                  alt="Industry Volunteers"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-semibold text-[#2A2B3F] mb-4">Faculty Members</h3>
-              <p className="text-[#6a6f73] text-lg">Mentoring SoC projects and creating curriculum</p>
+              <h3 className="text-2xl font-semibold text-[#2A2B3F] mb-4">Industry Volunteers</h3>
+              <p className="text-[#6a6f73] text-lg">Mentoring SoC projects and contributing to curriculum development</p>
             </div>
 
             <div className="bg-white p-10 rounded-xl shadow-sm border border-[#d1d7dc] hover:shadow-md transition-shadow">

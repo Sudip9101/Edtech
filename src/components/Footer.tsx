@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold text-purple-400 mb-4">EdTechPro</h3>
+            <h3 className="text-2xl font-bold text-purple-400 mb-4">NOSEDC</h3>
             <p className="text-gray-600 mb-6 max-w-md">
-              We design and develop cutting-edge educational technology solutions that transform learning experiences for students and educators worldwide.
+              Empowering Future of Chip Design. We design and develop cutting-edge educational technology solutions that transform learning experiences for students and educators worldwide.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-500 hover:text-purple-600 transition-colors">
@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="space-y-3 text-gray-600">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-purple-400" />
-                <span>hello@edtechpro.com</span>
+                <span>hello@nosedc.com</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-purple-400" />
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-300 mt-8 pt-8 text-center text-gray-500">
-          <p>&copy; 2024 EdTechPro. All rights reserved.</p>
+          <p>&copy; 2024 NOSEDC. All rights reserved.</p>
         </div>
       </div>
     </footer>
