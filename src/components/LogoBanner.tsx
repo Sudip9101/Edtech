@@ -27,8 +27,8 @@ export default function LogoBanner() {
           <Image
             src="/Socteamup.png"
             alt="Socteamup"
-            width={120}
-            height={120}
+            width={80}
+            height={80}
             className="object-contain"
           />
         </div>

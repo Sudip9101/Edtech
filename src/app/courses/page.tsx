@@ -122,7 +122,7 @@ export default function Courses() {
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-purple-50 to-purple-100">
                 <img
-                  src="/tile3.png"
+                  src="/RTL.jpg"
                   alt="RTL Design & Verification"
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -136,7 +136,7 @@ export default function Courses() {
                 <h3 className="text-lg font-bold text-[#1c1d1f] mb-3">
                   RTL Design & Verification
                 </h3>
-                <p className="text-sm text-[#6a6f73] mb-4">
+                <p className="text-sm text-[#6a6f73] mb-4 min-h-24 text-left">
                   Master Verilog, SystemVerilog, and verification flows for SoC IP development.
                 </p>
                 <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
@@ -145,12 +145,12 @@ export default function Courses() {
               </div>
             </div>
 
-            {/* Course 4: Physical Design */}
+            {/* Course 4: Design for Testing */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <div className="relative h-32 bg-gradient-to-br from-orange-50 to-orange-100">
+              <div className="relative h-32 bg-gradient-to-br from-teal-50 to-teal-100">
                 <img
-                  src="/tile4.jpg"
-                  alt="Physical Design"
+                  src="/DFT.webp"
+                  alt="Design for Testing"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -161,10 +161,10 @@ export default function Courses() {
               </div>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold text-[#1c1d1f] mb-3">
-                  Physical Design
+                  Design for Testing
                 </h3>
-                <p className="text-sm text-[#6a6f73] mb-4">
-                  Learn floorplanning, placement, routing, and timing closure for ASIC design.
+                <p className="text-sm text-[#6a6f73] mb-4 min-h-24 text-left">
+                  Design for testability, scan chains, and built-in self-test techniques.
                 </p>
                 <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
                   Coming Soon
@@ -172,12 +172,12 @@ export default function Courses() {
               </div>
             </div>
 
-            {/* Course 5: DFT & Testing */}
+            {/* Course 5: Physical Design */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
-              <div className="relative h-32 bg-gradient-to-br from-teal-50 to-teal-100">
+              <div className="relative h-32 bg-gradient-to-br from-orange-50 to-orange-100">
                 <img
-                  src="/DFT.webp"
-                  alt="DFT & Testing"
+                  src="/new course.jpeg"
+                  alt="Physical Design"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -188,10 +188,10 @@ export default function Courses() {
               </div>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold text-[#1c1d1f] mb-3">
-                  DFT & Testing
+                  Physical Design
                 </h3>
-                <p className="text-sm text-[#6a6f73] mb-4">
-                  Design for testability, scan chains, and built-in self-test techniques.
+                <p className="text-sm text-[#6a6f73] mb-4 min-h-24 text-left">
+                  Learn floorplanning, placement, routing, and timing closure for ASIC design.
                 </p>
                 <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
                   Coming Soon
@@ -199,12 +199,12 @@ export default function Courses() {
               </div>
             </div>
 
-            {/* Course 6: SoC Integration */}
+            {/* Course 6: Analog Machine */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-indigo-50 to-indigo-100">
                 <img
                   src="/SOC.jpg"
-                  alt="SoC Integration"
+                  alt="Analog Machine"
                   className="w-full h-full object-cover"
                   loading="lazy"
                   decoding="async"
@@ -215,9 +215,9 @@ export default function Courses() {
               </div>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold text-[#1c1d1f] mb-3">
-                  SoC Integration
+                  Analog Machine
                 </h3>
-                <p className="text-sm text-[#6a6f73] mb-4">
+                <p className="text-sm text-[#6a6f73] mb-4 min-h-24 text-left">
                   System-on-chip design, IP integration, and verification methodologies.
                 </p>
                 <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
@@ -249,55 +249,55 @@ export default function Courses() {
               <div className="space-y-6">
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 1: RTL Design Fundamentals
+                    Module 1 – RTL Design & IP Integration (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    Introduction to Verilog, SystemVerilog, and RTL design principles.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Learn Verilog coding fundamentals, synthesizable constructs, and best practices for subsystem-level IP integration. Gain practical experience with real-world bus protocols such as APB and AHB-lite. Simulate designs using Verilator and visualize results with GTKWave, enabling deep insight into design functionality.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 2: IP Integration
+                    Module 2 – Advanced RTL Design and CDC/RDC Handling (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    SoC architecture, IP block integration, and interface protocols.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Master techniques for multi-clock domain designs and asynchronous resets. Design and verify FIFOs for asynchronous interfaces, implement low-power techniques like clock gating, and ensure robust Clock Domain Crossing (CDC) and Reset Domain Crossing (RDC) synchronization. Verify implementations with Verilator simulations and waveform analysis in GTKWave.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 3: Verification & Validation
+                    Module 3 – RTL Synthesis and Static Timing Constraints (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    Testbench development, coverage analysis, and formal verification.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Use open-source tools like Yosys and OpenSTA to transform RTL into a gate-level netlist, apply timing constraints, and analyze synthesis results for area, timing, and power. Understand the impact of coding styles and learn how to debug synthesis issues effectively.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 4: Physical Implementation
+                    Module 4 – Physical Awareness: Standard Cells, LEF/DEF, Timing, and Parasitics (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    Synthesis, place and route, timing closure, and DRC/LVS.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Explore the physical design foundation—standard cells, LEF/DEF formats, and parasitics. Get hands-on experience with placement, routing, and parasitic extraction using tools like RePlAce, TritonCTS, Magic, and KLayout. Learn to perform signoff checks such as DRC, LVS, and STA.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 5: Signoff & Tapeout
+                    Module 5 – RTL to GDSII: Synthesis to Full Physical Design (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    Final verification, design rule checks, and tapeout preparation.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Execute the complete physical design flow—from floorplanning and placement to Clock Tree Synthesis (CTS), routing, and final GDSII generation. Understand design rule checking (DRC), layout vs. schematic verification (LVS), and basic low-power considerations during implementation.
                   </p>
                 </div>
                 
                 <div className="border-l-4 border-[#a435f0] pl-4">
                   <h4 className="text-lg font-semibold text-[#1c1d1f] mb-2">
-                    Module 6: Project Work
+                    Module 6 – Final Collaborative Project (15 Hours)
                   </h4>
-                  <p className="text-[#6a6f73]">
-                    Hands-on project implementing a complete SoC design flow.
+                  <p className="text-[#6a6f73] leading-relaxed">
+                    Work in teams to complete an end-to-end SoC project starting from RTL and concluding with signoff. Implement scan chain insertion, integrate digital and analog IPs, perform full physical layout, and prepare final reports and documentation to industry standards.
                   </p>
                 </div>
               </div>

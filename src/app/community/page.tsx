@@ -26,11 +26,9 @@ export default function Community() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2A2B3F] mb-6 leading-tight">
-              A National Collaborative of Chip Learners, Builders, and Innovators
+              Our collaborations leading institutes, R&D organizations and Foundrys.
             </h1>
-            <p className="text-xl text-[#6a6f73] max-w-4xl mx-auto leading-relaxed">
-              India&apos;s Open Silicon Movement Starts Here
-            </p>
+
           </div>
 
           {/* Community Members Grid */}
@@ -83,7 +81,7 @@ export default function Community() {
                   className="object-cover"
                 />
               </div>
-              <h3 className="text-2xl font-semibold text-[#2A2B3F] mb-4">Startups & Industries</h3>
+              <h3 className="text-2xl font-semibold text-[#2A2B3F] mb-4">Startups & MSME</h3>
               <p className="text-[#6a6f73] text-lg">Building open IP pipelines</p>
             </div>
           </div>

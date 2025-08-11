@@ -9,6 +9,23 @@ import Footer from "@/components/Footer";
 export default function OpenTools() {
   const tools = [
     {
+      name: "Verilator",
+      description: "RTL Simulation",
+      icon: Wrench,
+      color: "bg-indigo-100 text-indigo-800",
+      image: "/verilator.png",
+      details: "Fast Verilog simulator that converts Verilog to C++ for high-performance simulation. Ideal for large-scale RTL verification and testing.",
+      imageClass: "p-0 scale-130"
+    },
+    {
+      name: "GTKWave",
+      description: "Waveform Debugging",
+      icon: BarChart3,
+      color: "bg-red-100 text-red-800",
+      image: "/gtx.png",
+      details: "Waveform viewer for analyzing digital signal traces. Supports various file formats and provides advanced debugging capabilities for digital design verification."
+    },
+    {
       name: "Yosys",
       description: "RTL synthesis",
       icon: Wrench,
@@ -25,14 +42,6 @@ export default function OpenTools() {
       details: "Static timing analysis tool that analyzes circuit timing without requiring simulation. Provides detailed timing reports and optimization suggestions."
     },
     {
-      name: "RePlAce/TritonCTS",
-      description: "Floorplanning and CTS",
-      icon: Building,
-      color: "bg-purple-100 text-purple-800",
-      image: "/titron.png",
-      details: "Advanced floorplanning and Clock Tree Synthesis tools for physical design. Optimizes placement and clock distribution networks."
-    },
-    {
       name: "Magic",
       description: "Layout & DRC",
       icon: Database,
@@ -41,12 +50,12 @@ export default function OpenTools() {
       details: "VLSI layout tool for creating and editing integrated circuit layouts. Includes Design Rule Checking (DRC) and Layout vs Schematic (LVS) verification."
     },
     {
-      name: "GTKWave",
-      description: "Waveform Debugging",
-      icon: BarChart3,
-      color: "bg-red-100 text-red-800",
-      image: "/gtx.png",
-      details: "Waveform viewer for analyzing digital signal traces. Supports various file formats and provides advanced debugging capabilities for digital design verification."
+      name: "RePlAce/TritonCTS",
+      description: "Floorplanning and CTS",
+      icon: Building,
+      color: "bg-purple-100 text-purple-800",
+      image: "/titron.png",
+      details: "Advanced floorplanning and Clock Tree Synthesis tools for physical design. Optimizes placement and clock distribution networks."
     }
   ];
 
@@ -64,9 +73,7 @@ export default function OpenTools() {
             <p className="text-xl text-[#6a6f73] max-w-3xl mx-auto mb-8">
               Use open-source tools across RTL, Synthesis, and Physical Design
             </p>
-            <p className="text-lg text-[#6a6f73] max-w-4xl mx-auto">
-              Explore our collection of powerful open-source tools for digital design and verification
-            </p>
+
           </div>
         </div>
       </section>
@@ -75,7 +82,7 @@ export default function OpenTools() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {tools.slice(0, 3).map((tool, index) => (
+            {tools.map((tool, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 hover:shadow-xl transition-shadow">
                 <div className="text-center mb-6">
                   {/* Tool Image */}
@@ -85,7 +92,7 @@ export default function OpenTools() {
                       alt={tool.name}
                       width={96}
                       height={96}
-                      className="object-contain w-full h-full p-2"
+                      className={`object-contain w-full h-full p-2 ${tool.imageClass ?? ''}`}
                     />
                   </div>
                   
@@ -125,7 +132,7 @@ export default function OpenTools() {
                       alt={tool.name}
                       width={96}
                       height={96}
-                      className="object-contain w-full h-full p-2"
+                      className={`object-contain w-full h-full p-2 ${tool.imageClass ?? ''}`}
                     />
                   </div>
                   
@@ -164,7 +171,7 @@ export default function OpenTools() {
                 Why Open-Source Tools?
               </h2>
               <p className="text-lg text-[#6a6f73] mb-6 leading-relaxed">
-                Open-source tools provide transparency, community-driven development, and cost-effective solutions for digital design. Our curated collection ensures compatibility and reliability across the entire design flow.
+                Open-source tools provide transparency, community-driven development, and cost-effective digital design to SoC design. Our curated collection ensures compatibility and reliability across the entire design flow.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">

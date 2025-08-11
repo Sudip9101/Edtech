@@ -127,15 +127,7 @@ export default function WhyChooseUs() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4">
-                  <div className="w-8 h-8 bg-[#a435f0] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white text-sm font-bold">🔹</span>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-[#2A2B3F] mb-1">Fabrication-Ready Flows</h3>
-                    <p className="text-[#6a6f73]">IPs can be deployed on FPGA or taken to SCL for tapeout</p>
-                  </div>
-                </div>
+
 
                 <div className="flex items-start gap-4">
                   <div className="w-8 h-8 bg-[#a435f0] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
