@@ -270,7 +270,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-[#1c1d1f] mb-4">Contact Us</h2>
-            <p className="text-lg text-[#6a6f73] max-w-3xl mx-auto">Have questions or want to collaborate? Send us a message and well get back to you soon.</p>
+            <p className="text-lg text-[#6a6f73] max-w-3xl mx-auto">Have questions or want to collaborate? Send us a message and we&apos;ll get back to you soon.</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-10">
@@ -279,9 +279,18 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-[#1c1d1f] mb-4">Get in touch</h3>
               <p className="text-[#6a6f73] mb-6">Reach out to us for partnerships, curriculum, workshops, or any general queries.</p>
               <ul className="space-y-3 text-[#1c1d1f]">
-                <li><span className="font-medium">Email:</span> <a href="mailto:info@example.com" className="text-[#a435f0] hover:underline">info@example.com</a></li>
-                <li><span className="font-medium">Community:</span> <Link href="/community" className="text-[#a435f0] hover:underline">Join the community</Link></li>
-                <li><span className="font-medium">Courses:</span> <Link href="/courses" className="text-[#a435f0] hover:underline">Browse courses</Link></li>
+                                  <li className="flex items-center gap-2">
+                    <span className="font-medium">Email:</span> 
+                    <a href="mailto:contact.nva@nielit.gov.in" className="text-[#a435f0] hover:underline">contact.nva@nielit.gov.in</a>
+                  </li>
+                                  <li className="flex items-center gap-2">
+                    <span className="font-medium">Phone:</span> 
+                    <span>(+91) 11-4444 6777</span>
+                  </li>
+                <li className="flex items-start gap-2">
+                  <span className="font-medium">Location:</span> 
+                  <span>NIELIT (MeitY, Govt of India), Plot No. 3, PSP Pocket, Sector-08, Dwarka, New Delhi - 110077</span>
+                </li>
               </ul>
             </div>
 
@@ -323,7 +332,7 @@ export default function Home() {
               Our Collaborations
             </h2>
             <p className="text-lg text-[#6a6f73] max-w-3xl mx-auto">
-              Partnering with leading institutions and organizations to deliver world-class education
+              Partnering with leading institutions, research organizations and foundries
             </p>
           </div>
 

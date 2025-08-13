@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NOSEDC - Empowering Future of Chip Design",
+  title: "OpenChipHub - Empowering Future of Chip Design",
   description: "Empowering Future of Chip Design. Build hands-on skills with expert-led courses in RTL design, SoC development, and digital electronics.",
 };
 

@@ -43,16 +43,9 @@ export default function Events() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               </div>
-              <div className="p-6">
+              <div className="p-6 text-center">
                 <div className="text-sm text-[#a435f0] font-medium mb-2">Workshop</div>
-                <h3 className="text-xl font-bold text-[#1c1d1f] mb-3">RTL Design Fundamentals</h3>
-                <p className="text-[#6a6f73] text-sm mb-4">Learn the basics of RTL design with hands-on Verilog coding exercises.</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-[#6a6f73]">Dec 15, 2024</span>
-                  <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
-                    Register Now
-                  </button>
-                </div>
+                <div className="text-2xl font-bold text-[#1c1d1f] mb-4">Coming Soon</div>
               </div>
             </div>
 
@@ -63,16 +56,9 @@ export default function Events() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <div className="p-6">
+              <div className="p-6 text-center">
                 <div className="text-sm text-[#a435f0] font-medium mb-2">Webinar</div>
-                <h3 className="text-xl font-bold text-[#1c1d1f] mb-3">Open Source EDA Tools</h3>
-                <p className="text-[#6a6f73] text-sm mb-4">Explore the power of open-source EDA tools for chip design.</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-[#6a6f73]">Dec 20, 2024</span>
-                  <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
-                    Register Now
-                  </button>
-                </div>
+                <div className="text-2xl font-bold text-[#1c1d1f] mb-4">Coming Soon</div>
               </div>
             </div>
 
@@ -83,16 +69,9 @@ export default function Events() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <div className="p-6">
-                <div className="text-sm text-[#a435f0] font-medium mb-2">Conference</div>
-                <h3 className="text-xl font-bold text-[#1c1d1f] mb-3">Semiconductor Summit 2024</h3>
-                <p className="text-[#6a6f73] text-sm mb-4">Join industry leaders for insights into the future of chip design.</p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-[#6a6f73]">Jan 15, 2025</span>
-                  <button className="bg-[#a435f0] text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
-                    Register Now
-                  </button>
-                </div>
+              <div className="p-6 text-center">
+                <div className="text-sm text-[#a435f0] font-medium mb-2">Hackathon</div>
+                <div className="text-2xl font-bold text-[#1c1d1f] mb-4">Coming Soon</div>
               </div>
             </div>
           </div>

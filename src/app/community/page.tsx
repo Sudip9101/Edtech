@@ -26,7 +26,7 @@ export default function Community() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2A2B3F] mb-6 leading-tight">
-              Our collaborations leading institutes, R&D organizations and Foundrys.
+              A National Collaborative of Chip Designers, Builders and Innovators
             </h1>
 
           </div>

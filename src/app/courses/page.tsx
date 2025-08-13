@@ -61,9 +61,14 @@ export default function Courses() {
                 <p className="text-[#6a6f73] mb-6">
                   A comprehensive introduction to semiconductor design fundamentals and open-source EDA tools.
                 </p>
-                <button className="bg-[#a435f0] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors">
-                  Coming Soon
-                </button>
+                <a 
+                  href="https://socteamup.in/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#a435f0] text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-[#8b2db8] transition-colors"
+                >
+                  Available
+                </a>
               </div>
             </div>
 
@@ -185,12 +190,12 @@ export default function Courses() {
               </div>
             </div>
 
-            {/* Course 6: Analog Machine */}
+            {/* Course 6: Analog & Mixed Signal Design */}
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative h-32 bg-gradient-to-br from-indigo-50 to-indigo-100">
                 <Image
                   src="/SOC.jpg"
-                  alt="Analog Machine"
+                  alt="Analog & Mixed Signal Design"
                   fill
                   className="object-cover"
                   priority
@@ -198,7 +203,7 @@ export default function Courses() {
               </div>
               <div className="p-4 text-center">
                 <h3 className="text-lg font-bold text-[#1c1d1f] mb-3">
-                  Analog Machine
+                  Analog & Mixed Signal Design
                 </h3>
                 <p className="text-sm text-[#6a6f73] mb-4 min-h-24 text-left">
                   System-on-chip design, IP integration, and verification methodologies.

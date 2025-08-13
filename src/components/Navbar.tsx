@@ -13,10 +13,10 @@ export default function Navbar() {
       {/* Top Navbar - Logos Only */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-32">
-          {/* Left Side - NOSEDC Logo */}
+          {/* Left Side - OpenChipHub Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-3xl font-bold text-[#a435f0] hover:text-[#8b2db8] transition-colors">
-              NOSEDC
+              OpenChipHub
             </Link>
           </div>
           

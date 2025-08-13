@@ -13,8 +13,8 @@ export default function IPLibrary() {
     {
       name: "UART",
       description: "8-bit Configurable",
-      status: "Ready",
-      statusColor: "bg-green-100 text-green-800",
+      status: "Under Dev",
+      statusColor: "bg-yellow-100 text-yellow-800",
       details: "Universal Asynchronous Receiver-Transmitter with configurable baud rates, parity, and stop bits. Perfect for serial communication protocols."
     },
     {
@@ -27,15 +27,15 @@ export default function IPLibrary() {
     {
       name: "PWM Timer",
       description: "16-bit Pulse Generator",
-      status: "Ready",
-      statusColor: "bg-green-100 text-green-800",
+      status: "Under Dev",
+      statusColor: "bg-yellow-100 text-yellow-800",
       details: "Pulse Width Modulation timer with configurable duty cycle and frequency generation. Ideal for motor control and signal generation."
     },
     {
       name: "SPI Master",
       description: "Fully Synchronous",
-      status: "FPGA Eval",
-      statusColor: "bg-blue-100 text-blue-800",
+      status: "Under Dev",
+      statusColor: "bg-yellow-100 text-yellow-800",
       details: "Serial Peripheral Interface master controller with configurable clock polarity, phase, and data width for high-speed communication."
     }
   ];

@@ -113,52 +113,14 @@ export default function OpenTools() {
                   </p>
                   
                   <button className="bg-[#8B2DB8] text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-[#7A1AA7] transition-colors">
-                    Learn More
+                    Under Dev
                   </button>
                 </div>
               </div>
             ))}
           </div>
           
-          {/* Second row with 2 centered tiles */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
-            {tools.slice(3, 5).map((tool, index) => (
-              <div key={index + 3} className="bg-white rounded-2xl shadow-lg p-6 border border-gray-200 hover:shadow-xl transition-shadow">
-                <div className="text-center mb-6">
-                  {/* Tool Image */}
-                  <div className="w-24 h-24 mx-auto mb-4 rounded-xl overflow-hidden bg-gray-50 flex items-center justify-center">
-                    <Image
-                      src={tool.image}
-                      alt={tool.name}
-                      width={96}
-                      height={96}
-                      className={`object-contain w-full h-full p-2 ${tool.imageClass ?? ''}`}
-                    />
-                  </div>
-                  
-                  <h3 className="text-xl font-bold text-[#2A2B3F] mb-2">
-                    {tool.name}
-                  </h3>
-                  <p className="text-base text-[#6a6f73] mb-3">
-                    {tool.description}
-                  </p>
-                  <span className={`inline-flex items-center px-3 py-1 rounded-full text-xs font-medium ${tool.color}`}>
-                    {tool.description}
-                  </span>
-                </div>
-                
-                <div className="text-center">
-                  <p className="text-[#6a6f73] leading-relaxed mb-4 text-sm">
-                    {tool.details}
-                  </p>
-                  
-                  <button className="bg-[#8B2DB8] text-white px-6 py-2 rounded-lg text-sm font-semibold hover:bg-[#7A1AA7] transition-colors">
-                    Learn More
-                  </button>
-                </div>
-              </div>
-            ))}
-          </div>
+
         </div>
       </section>
 

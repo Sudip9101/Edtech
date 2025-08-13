@@ -126,10 +126,10 @@ export default function PrivacyPolicy() {
                 If you have any questions about this Privacy Policy or our data practices, please contact us at:
               </p>
               <div className="mt-3 p-4 bg-gray-50 rounded-lg">
-                <p className="font-medium">NOSEDC</p>
-                <p>Email: hello@nosedc.com</p>
-                <p>Phone: +1 (555) 123-4567</p>
-                <p>Address: San Francisco, CA</p>
+                <p className="font-medium">OpenChipHub</p>
+                <p>Email: contact.nva@nielit.gov.in</p>
+                <p>Phone:  (+91) 11-4444 6777</p>
+                <p>Address: NIELIT (MeitY, Govt of India), Plot No. 3, PSP Pocket, Sector-08, Dwarka, New Delhi - 110077</p>
               </div>
             </section>
 
